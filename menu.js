@@ -3,35 +3,35 @@ const foods = [
         id:0,
         product:"Chicken",
         price: 50,
-        image:"../img/chicken wings.png",
+        image:"chicken wings.png",
     },
 
     {
         id:1,
         product:"Carbonara",
         price: 70,
-        image:"../img/carbonara.jpg",
+        image:"carbonara.jpg",
     },
 
     {
         id:2,
         product:"Donut",
         price: 30,
-        image:"../img/donut.png",
+        image:"donut.png",
     },
     
     {
         id:3,
         product:"Regular Fries",
         price: 20,
-        image:"../img/regular fries.png",
+        image:"regular fries.png",
     },
     
     {
         id:4,
         product:"Chocolate Cake",
         price: 40,
-        image:"../img/chocolate cake.png",
+        image:"chocolate cake.png",
     },
     
 
@@ -39,7 +39,7 @@ const foods = [
         id:5,
         product:"Takoyaki",
         price:20,
-        image:"../img/takoyaki.png",
+        image:"takoyaki.png",
     },
    
 
@@ -47,7 +47,7 @@ const foods = [
         id:6,
         product:"Spanish Bread",
         price: 23,
-        image: "../img/spanish bread.png",
+        image: "spanish bread.png",
     },
     
 
@@ -55,7 +55,7 @@ const foods = [
         id:7,
         product: "Bacon Sandwich",
         price: 27,
-        image: "../img/bacon sandwich.png",
+        image: "bacon sandwich.png",
     },
     
     
@@ -93,35 +93,35 @@ const Drinks = [
         ids:0,
         product:"Black Coffee",
         price: 30,
-        image:"../img/black coffee.png",
+        image:"black coffee.png",
     },
 
     {
         ids:1,
         product:"Cappuccino Coffee",
         price: 50,
-        image:"../img/cappuccino coffee.jpg",
+        image:"cappuccino coffee.jpg",
     },
 
     {
         ids:2,
         product:"Halo-halo",
         price: 30,
-        image:"../img/halo-halo.png",
+        image:"halo-halo.png",
     },
     
     {
         ids:3,
         product:"Iced Coffee",
         price: 25,
-        image:"../img/Iced-Coffee-Milkshake.png",
+        image:"Iced-Coffee-Milkshake.png",
     },
     
     {
         ids:4,
         product:"Mango juice",
         price: 40,
-        image:"../img/Mango juice.png",
+        image:"Mango juice.png",
     },
     
 
@@ -129,7 +129,7 @@ const Drinks = [
         ids:5,
         product:"Mango Milkshake",
         price:60,
-        image:"../img/mango milkshake.png",
+        image:"mango milkshake.png",
     },
    
 
@@ -137,7 +137,7 @@ const Drinks = [
         ids:6,
         product:"Taho",
         price: 20,
-        image: "../img/Taho.png",
+        image: "Taho.png",
     },
     
     
