@@ -4,42 +4,42 @@ const drinkFood = [
     {
         product:"Chicken",
         prices: 50,
-        image:"../img/chicken wings.png",
+        image:"chicken wings.png",
     },
     {
         product:"Carbonara",
         prices: 70,
-        image:"../img/carbonara.jpg",
+        image:"carbonara.jpg",
     },
     {
         product:"Donut",
         prices: 30,
-        image:"../img/donut.png",
+        image:"donut.png",
     },
     {
         product:"Regular Fries",
         prices: 20,
-        image:"../img/regular fries.png",
+        image:"regular fries.png",
     },
     {
         product:"Chocolate Cake",
         prices: 40,
-        image:"../img/chocolate cake.png",
+        image:"chocolate cake.png",
     },
     {
         product:"Black Coffee",
         prices: 25,
-        image:"../img/black coffee.png",
+        image:"black coffee.png",
     },
     {
         product:"Halo-Halo",
         prices: 30,
-        image:"../img/halo-halo.png",
+        image:"halo-halo.png",
     },
     {
         product:"Iced Coffee",
         prices: 45,
-        image:"../img/Iced-Coffee-Milkshake.png",
+        image:"Iced-Coffee-Milkshake.png",
     },
 ]
 
