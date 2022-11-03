@@ -1,0 +1,359 @@
+@media screen and (max-width: 850px){
+    
+    ul{
+        font-size: clamp(1rem, 2.5vw, 2rem);
+        text-indent: 1px;
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 600px){
+  body{
+   
+    height: 100vh;
+  }
+    header{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+   .nav{
+        z-index: 2;
+        
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        height: 0;
+        z-index: 2;
+        
+        
+        margin-top: 21rem;
+    }
+    ul li a{
+        
+    }
+    .toggle {
+        display: flex;
+        border: none;
+        background: none;
+        align-self: center;
+        justify-self: flex-end;
+        text-indent: -1rem;
+        
+    }
+    
+
+    article img{
+        width: min(98vw, 34rem);
+        top: 0;
+    }
+
+
+    #menu__toggle {
+        opacity: 0;
+      }
+      #menu__toggle:checked + .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked + .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0deg);
+      }
+      #menu__toggle:checked + .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        left: 0 !important;
+      }
+      .menu__btn {
+        display: flex;
+        
+        
+        top: 4rem;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-self: center;
+        
+        width: 3rem;
+        font-size: 2rem;
+        left: min(46rem,84vw);
+        cursor: pointer;
+        z-index: 1;
+      }
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        
+        position: absolute;
+        width: 100%;
+        
+        height: 3px;
+        background-color: white;
+        transition-duration: .25s;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      .menu__box {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: min(21rem, 51vw);
+        height: 100%;
+        margin: 0;
+        margin-top: 10rem;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #303234a0;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        transition-duration: .25s;
+      }
+      .menu__item {
+        display: flex;
+        
+        padding: 12px 24px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+      }
+      .menu__item:hover {
+        background-color: #CFD8DC;
+      }
+
+      section{
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    
+    .text{
+      top: -3rem;
+    }
+    .text img{
+      border-radius: 0;
+      border: 4px solid black;
+      justify-content: center;
+      max-width: 40rem;
+      background-size: cover;
+      
+      flex-wrap: 1;
+      width: 100%;
+      max-height:41rem;
+      height: 32rem;
+      top: -3rem;
+    }
+
+    .texts span{
+   
+      font-size: clamp(.8rem, 1.5vw, 2rem);
+    }
+    div.container{
+      
+      height: 55vh ;
+    }
+
+    
+  
+    .boxes{
+      display: flex;
+      flex-shrink: 1;
+      width: max(40vw, 100%);
+      
+    }
+
+    .cards{
+      display: flex;
+      
+      overflow-x: scroll;
+     
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+      width: min(60rem, 60vw);
+      height: min(79rem, 31rem);
+      gap: 1rem;
+      cursor: pointer;
+      
+    }
+    
+    .card{
+      align-self: center;
+      text-align: center;
+      scroll-snap-align: start;
+      background: rgba(87, 85, 85, 0.174);
+      flex-wrap: wrap;
+      border-radius:  11px 11px 0px 0px;
+      border: 1px solid rgba(0, 0, 0, 0.112);
+      box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.433);
+      
+      height: max(71vw, 21rem);
+    }
+
+    
+}
+
+@media screen and (max-width: 431px){
+  body{
+    width: 100%;
+    height: 100%;
+
+    
+  }
+  
+  .hamburger-menu{
+    
+  }
+
+
+  .boxes{
+    display: flex;
+    flex-shrink: 1;
+   
+    
+  }
+  section{
+      padding: 0;
+      margin: 0;
+      justify-content: flex-start;
+  }
+  
+  .text img{
+    border-radius: 0;
+    border: 4px solid black;
+    justify-content: center;
+    margin-top: 1rem;
+    background-size: cover;
+    flex-wrap: 1;
+    width: 100%;
+    height: max(21vw, 21rem);
+    top: -3rem;
+  }
+  .texts span{
+   
+    font-size: clamp(.5rem, 1.5vw, 2rem);
+  }
+  .msg{
+    width: 8rem;
+    height: 2.5rem;
+    top: 9rem;
+  }
+  .box{
+    padding: 1rem;
+    margin: 2rem;
+  }
+
+  
+  .forms{
+    justify-content: center;
+    
+    
+  }
+  .activeForm{
+    width: 80%;
+    left: 9%;
+  }
+  form{ 
+    
+    min-height: 21rem;
+    width: 100%;
+  }
+  .input{
+    
+    padding: 11px;
+    margin-top: -2rem;
+    
+  }
+  .input input{
+    height: min(34vw, 2.5rem);
+  }
+  input::placeholder{
+    font-size: clamp(.5rem, 2.5vw, 1rem);
+  }
+  .submit{
+    min-width:12rem;
+    
+  }
+  #subject{
+    width:100%;
+   }
+  .submit button{
+    font-size: 31rem;
+  }
+  .sumb{
+    align-self: center;
+    
+    margin-top: 1.3rem;
+  }
+  textarea{
+    width: 100%;
+    height: 7rem;
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 300px){
+  body{
+    width: 100%;
+   
+  }
+
+  
+  .hamburger-menu{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .text img{
+    min-width: 24.1rem;
+    width: 21rem;
+    min-height: 31rem;
+  }
+
+  .texts span {
+    font-size: clamp(.2rem, 2.5vw, 1rem);
+}
+
+.row{
+  grid-template-columns: repeat(1, 1fr);
+}
+section.boxes{
+  min-width: 24.1rem;
+  
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+  margin: .4rem;
+  min-width: 21rem;
+  gap: 2rem;
+}
+.container{
+  position: relative;
+  left: 1.5rem;
+}
+.cards{
+  width: 14rem;
+}
+.footer{
+  min-width: 24.1rem;
+  height: 15rem;
+}
+span{
+  margin-left: 8rem;
+}
+
+
+}

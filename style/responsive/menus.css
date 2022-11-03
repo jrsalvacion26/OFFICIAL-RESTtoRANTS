@@ -1,0 +1,514 @@
+@media screen and (min-width: 1429px){
+  body{
+    
+  }
+  div#d{
+   
+    
+  }
+}
+
+
+@media screen and (max-width: 986px){
+  div#f{
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  }
+
+  div#d{
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    
+  }
+  .btn button{
+    width: 6rem;
+    top: 9rem;
+  }
+  div.btn{
+    gap: .3rem;
+  }
+ .item_price{
+  font-size: clamp(17px, 2.5vw, 3px);
+ }
+  .cardPrice{
+    margin-top: 4rem;
+  }
+            
+ 
+
+ img.images{
+    
+    position: absolute;
+    top: 6rem;
+    height: max(21vw,8rem);
+    
+ }
+
+ .cardDrink{
+    padding: 0;
+    height: max(41vw, 25rem);
+ }
+ .cardFood{
+  padding: 0;
+  height: max(41vw, 25rem);
+}
+}
+
+@media screen and (max-width: 850px){
+    
+  ul{
+      font-size: clamp(1rem, 2.5vw, 2rem);
+      text-indent: 1px;
+      padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 632px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+   .nav{
+        z-index: 2;
+        
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        height: 0;
+        z-index: 2;
+        
+        
+        margin-top: 21rem;
+    }
+    ul li a{
+        
+    }
+    .toggle {
+        display: flex;
+        border: none;
+        background: none;
+        align-self: center;
+        justify-self: flex-end;
+        text-indent: -1rem;
+        
+    }
+    
+
+    article img{
+        width: min(98vw, 34rem);
+        top: 0;
+    }
+
+
+    #menu__toggle {
+      opacity: 0;
+    }
+    #menu__toggle:checked + .menu__btn > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::before {
+      top: 0;
+      transform: rotate(0deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+      left: 0 !important;
+    }
+    .menu__btn {
+      display: flex;
+      
+      
+      top: 4rem;
+      display: flex;
+      position: fixed;
+      justify-content: center;
+      align-self: center;
+      
+      width: 3rem;
+      font-size: 2rem;
+      left: min(46rem,84vw);
+      cursor: pointer;
+      z-index: 1;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      
+      position: absolute;
+      width: 100%;
+      
+      height: 3px;
+      background-color: white;
+      transition-duration: .25s;
+    }
+    .menu__btn > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 8px;
+    }
+    .menu__box {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: min(21rem, 51vw);
+      height: 100%;
+      margin: 0;
+      margin-top: 10rem;
+      padding: 80px 0;
+      list-style: none;
+      background-color: #303234a0;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+      transition-duration: .25s;
+    }
+    .menu__item {
+      display: flex;
+      
+      padding: 12px 24px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      transition-duration: .25s;
+    }
+    .menu__item:hover {
+      background-color: #CFD8DC;
+    }
+
+
+    div#f{
+      grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    }
+  
+    div#d{
+      grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+      
+    }
+
+}
+
+@media screen and (max-width: 622px){
+  body{
+    width: 100%;
+  }
+
+  html{
+    
+  }
+  div#f{
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    transform: translateX(0);
+    border-radius: 0;
+    width: min(96vw, 41rem); 
+    gap: 4rem;
+    
+  }
+  div#slides-container{
+   margin: 0;
+   padding: 0;
+  }
+  .cardFood{
+    left: -1.5rem;
+    width: 16rem;
+    
+  }
+
+  div#d{
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    transform: translateX(0);
+    border-radius: 0;
+    width: min(96vw, 41rem); 
+    gap: 4rem;
+   
+  }
+
+  div.btn{
+    width: min(4vw, 5rem);
+    top: 8rem;
+    padding-top: 3rem;
+    width: 9rem;
+    left: 3rem;
+    gap: 5px;
+  }
+
+  .cardDrink{
+    left: -1.5rem;
+    width: 16rem;
+  }
+
+  h1#p{
+    font-size: min(4vw, 2rem);
+  }
+  li#pr{
+    font-size: min(3vw, 2rem);
+  }
+  
+  .footer{
+    margin-top: 6rem;
+  }
+
+  .form{
+    
+    top: 15rem;
+  }
+}
+
+@media screen and (max-width:569px){
+  body{
+    width: 100%;
+    
+  }
+  div#f{
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    position: relative;
+    width: min(94vw, 91rem);
+    transform: translateX(0);
+    border-radius: 0;
+    
+    
+  }
+  .cardFood{
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    left: -1.5rem;
+    width:min(41vw, 21rem);
+    height: min(84vw, 21rem);
+    
+  }
+  img.images{
+    width: min(26vw, 21rem);
+    height: min(19vw, 11rem);
+  }
+  h1#p{
+    font-size: min(4vw, 2rem);
+  }
+  li#pr{
+    font-size: min(2vw, 2rem);
+    text-align: center; 
+  }
+  
+  div.btn{
+    
+    top: 5rem;
+    padding-top: 3rem;
+    width: 9rem;
+    
+    gap: 5px;
+   
+  }
+ 
+  
+  button.order{
+    
+    height: 1.5rem;
+    padding: 0;
+    
+  }
+  button.add_cart{
+    padding: 0;
+    font-size: 11px;
+    height: 1.5rem;
+  }
+  div.button{
+    width: 31rem;
+  }
+.slideris{
+  gap: 0;
+}
+
+.toggle{
+  display: flex;
+  margin-left: 2rem;
+}
+.toggle button{
+  position: relative;
+  
+  font-size: min(6vw, 2rem);
+}
+.logo{
+ font-size: .5rem;
+ margin-left: -1rem;
+}
+
+
+div#d{
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    position: relative;
+    width: min(94vw, 91rem);
+    transform: translateX(0);
+    border-radius: 0;
+  
+}
+  div.cardDrink{
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    left: -1.5rem;
+    width:min(41vw, 21rem);
+    height: min(84vw, 21rem);
+    
+  }
+
+}
+
+@media only screen and (min-device-width: 388px) and (max-device-width: 446px){
+  body{
+    width: 100%;
+    height: 100vh;
+   
+  }
+  div#f{
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    transform: translateX(0);
+    border-radius: 0;
+    width: min(100vw, 52rem);
+    
+    
+  }
+
+  .cardFood{
+    height: max(11vw, 19rem);
+  }
+
+  div#d{
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    transform: translateX(0);
+    border-radius: 0;
+    width: min(100vw, 52rem);
+    
+    
+  }
+
+  .cardDrink{
+    height: max(11vw, 19rem);
+  }
+
+  div.btn{
+    top: 4rem;
+    
+  }
+  div.btn button{
+    height: 1.5rem;
+    left: -1.5rem;
+    width: min(14vw, 15rem);
+    font-size: clamp(.5rem, 2vw, 2rem);
+  }
+  .forms{
+    justify-content: flex-start;
+  }
+  form{
+    width: 0%;
+  }
+  .input{
+    padding: 11px;
+  }
+  .submit{
+    min-width:12rem;
+    
+  }
+  .sumb{
+    align-self: center;
+  }
+  textarea{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 387px){
+  body{
+    width: 100%;
+    height: 100vh;
+    
+  }
+  .toggle{
+    margin-top: 6rem;
+    margin-left: -1rem;
+  }
+
+  div#slides-container{
+    margin-top: 2rem;
+  }
+
+  div#f{
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr)) ;
+    transform: translateX(0);
+    border-radius: 0;
+    width: min(100vw, 52rem);
+    
+    
+  }
+
+  .cardFood{
+    height: max(11vw, 19rem);
+  }
+
+  div#d{
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    transform: translateX(0);
+    border-radius: 0;
+    width: min(100vw, 52rem);
+    
+    
+  }
+
+  .cardDrink.cartRow{
+    height: max(11vw, 19rem);
+    
+  }
+
+  div.btn{
+    top: 4rem;
+    
+  }
+  div.btn button{
+    height: 1.5rem;
+    left: -1.5rem;
+    width: min(14vw, 15rem);
+    font-size: clamp(.5rem, 2vw, 2rem);
+  }
+  
+  .forms{
+    
+    justify-content: center;
+  }
+  form{
+    min-height: 21rem;
+  }
+  .input{
+    padding: 11px;
+    margin-top: -2rem;
+    
+  }
+  .input input{
+    height: min(34vw, 2.5rem);
+  }
+  input::placeholder{
+    font-size: clamp(.5rem, 2.5vw, 1rem);
+  }
+  .submit{
+    min-width:12rem;
+    
+  }
+  .submit button{
+    font-size: 31rem;
+  }
+  .sumb{
+    align-self: center;
+    
+    margin-top: 1.3rem;
+  }
+  textarea{
+    width: 100%;
+    height: 7rem;
+  }
+}
