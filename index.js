@@ -50,7 +50,7 @@ const cards = drinkFood.map(item => {
 
     
         <div class="card swiper-slide">
-            <img src="${item.image}" alt="" srcset="" class="images">
+            <img src="${item.image}" alt="" class="images">
             <h1>${item.product}</h1>
             <li style="font-family:'Courier New', Courier, monospace; padding-top:1rem;">${item.prices} Pesos</li>
             <button class="order_btn"  >Order</button>
